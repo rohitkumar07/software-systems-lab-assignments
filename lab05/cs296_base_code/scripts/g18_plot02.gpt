@@ -1,0 +1,13 @@
+set title "Average step, collision, velocity, position & loop time vs iteration value"
+set xlabel "Iteration value"
+set ylabel "time (in ms)"
+set key right box
+set terminal png
+set autoscale
+set output "../plots/g18_plot02.png"
+set datafile separator ','
+plot '../data/g18_lab05data_01.csv' u 1:3 smooth unique title "Step Time", \
+	'' u 1:4 smooth unique title "Collision Time", \
+	'' u 1:5 smooth unique title "Velocity update Time", \
+	'' u 1:6 smooth unique title "Position update Time", \
+	'' u 1:($4+$5+$6) smooth unique title "Sum of above 3 Time"

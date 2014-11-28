@@ -1,0 +1,16 @@
+set title "Frequency and Cumulative Frequency Plot of Step Time"
+set xlabel "Step Time in (ms)"
+set ylabel "Frequency"
+set key left box
+set terminal png
+set output "../plots/g18_plot04.png"
+set datafile separator ','
+binwidth = 0.2
+set autoscale
+set boxwidth binwidth
+rounded(x) = binwidth*(int((x/binwidth) + 0.5))
+
+maxRollNo = 35
+
+plot '../data/g18_lab05data_02.csv' using (rounded($3)):(($2==maxRollNo) ? 1.0 : 0.0) smooth frequency with boxes title 'Frequency Plot',\
+	'' using ($3):(($2==maxRollNo) ? 1.0 : 0.0) smooth cumulative title 'Cumulative Frequency Plot'

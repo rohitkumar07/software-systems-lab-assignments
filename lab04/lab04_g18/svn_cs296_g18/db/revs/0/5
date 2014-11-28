@@ -1,0 +1,54 @@
+id: 3-1.0-5.r5/0
+type: dir
+pred: 3-1.0.r3/89130
+count: 3
+text: 3 88972 145 145 c522e763f83b6d3428e2bc364b251129
+cpath: /branches/g1802
+copyfrom: 4 /trunk
+
+PLAIN
+K 5
+g1801
+V 16
+dir 3-1.0-4.r4/0
+K 5
+g1802
+V 16
+dir 3-1.0-5.r5/0
+END
+ENDREP
+id: 0-1.0.r5/236
+type: dir
+pred: 0-1.0.r4/204
+count: 2
+text: 5 155 68 68 83e309ba03ff65011b2a8b443f990d0d
+cpath: /branches
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 16
+dir 0-1.0.r5/236
+K 4
+tags
+V 14
+dir 2-1.0.r1/0
+K 5
+trunk
+V 18
+dir 3-1.0.r3/89130
+END
+ENDREP
+id: 0.0.r5/489
+type: dir
+pred: 0.0.r4/457
+count: 5
+text: 5 374 102 102 6889fb7dc3ae06a5ea6054d2a656c792
+cpath: /
+copyroot: 0 /
+
+3-1._0.t4-4 add-dir false false /branches/g1802
+4 /trunk
+
+489 617

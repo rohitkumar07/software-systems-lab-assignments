@@ -1,0 +1,70 @@
+button{
+	font-size:18.5px;
+	padding: 4px;
+	color:#7BB624;
+	border: #712C7A;
+	border-style:solid;
+	/*background:#7F7F7F;*/
+}
+
+body
+{
+	background-color:#FFFFFF;
+	background-image:url('images/b1.jpg');
+	padding:30px;
+	font-size:100%;
+	color: snow;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+html
+{
+	/*font-family:Helvetica, sans-serif;*/
+	/*	background-position: center;*/
+}
+			
+a:link {color:blue;}
+a:hover {color:violet;}
+
+td{
+	padding : 10px;
+	color:#E25A22;
+	width = 80px;
+	heigth = 30px;
+}
+
+p{
+	margin-right:25px;
+	padding-left:30px;
+	font-size:24px;
+}
+
+#quote
+{
+text-align:right;
+font-size:18.2px;
+color:#800080;
+}
+
+#quoter
+{
+text-align:right;
+font-size:20px;
+color:#640404; 
+}
+
+#courses
+{
+color:#338A06;
+font-family: georgia;
+font-size:17.5px;
+}
+
+#contact
+{
+	color:#197A30;
+	font-size:24px;
+	padding-left: 20px;
+}
